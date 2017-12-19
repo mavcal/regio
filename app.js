@@ -79,7 +79,7 @@ app.use(function (err, req, res, next) {
 
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
-var server_dns_name = 'regio-regio.7e14.starter-us-west-2.openshiftapps.com';
+var server_dns_name = 'https://regio-regio.rhcloud.com';
 
 var server = app.listen(server_port, server_ip_address, function () {
     console.log("Listening on " + server_dns_name + ", port " + server_port)
