@@ -1,0 +1,26 @@
+{
+  "name": "regio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "main": "app.js",
+  "description": "Regio",
+  "author": {
+    "name": "mavca"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cloud-env": "^0.2.2",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "node-horseman": "^3.3.0",
+    "phantom": "^4.0.11",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0"
+  }
+}
